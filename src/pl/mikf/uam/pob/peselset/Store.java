@@ -33,8 +33,8 @@ public class Store implements Iterable<Store.Entry> {
     }
 
     public void write(OutputStream writer) throws IOException {
-        for(Entry i : this) {
-            writer.write((i.toString()+"\n").getBytes());
+        for (Entry i : this) {
+            writer.write((i.toString() + "\n").getBytes());
         }
     }
 

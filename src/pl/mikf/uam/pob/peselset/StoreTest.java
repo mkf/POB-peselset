@@ -14,7 +14,7 @@ class StoreTest {
         String example1 = "44051401359 Michał Feiler";
         String example2a = "44041402359 Nieprąwda Dąprawdy";
         String example2 = "44041402359 Jąn Kąwąlskó";
-        byte[] b = (example1+"\n"+example2+"\n").getBytes();
+        byte[] b = (example1 + "\n" + example2 + "\n").getBytes();
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         Store n = new Store();
         n.add(new Store.Entry(example1));

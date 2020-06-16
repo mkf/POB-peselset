@@ -19,7 +19,7 @@ public class Main {
             Store store = new Store();
             while (scanner.hasNextLine()) {
                 String linia = scanner.nextLine();
-                if(linia.length()==0) break;
+                if (linia.length() == 0) break;
                 try {
                     store.add(new Store.Entry(linia));
                 } catch (Store.Entry.BadNumberOfFields badNumberOfFields) {
