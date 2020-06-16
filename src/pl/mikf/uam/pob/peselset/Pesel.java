@@ -83,7 +83,7 @@ public class Pesel {
     }
 
     public boolean monthCenturyCheck() {
-        return even(v('a')) ? v('b') != 0 : v('b') <= 2;
+        return even(v('c')) ? v('d') != 0 : v('d') <= 2;
     }
 
     public int century() {
