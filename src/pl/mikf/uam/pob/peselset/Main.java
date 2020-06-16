@@ -2,9 +2,7 @@ package pl.mikf.uam.pob.peselset;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class Main {

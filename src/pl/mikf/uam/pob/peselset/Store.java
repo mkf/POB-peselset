@@ -1,6 +1,7 @@
 package pl.mikf.uam.pob.peselset;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.Iterator;
 import java.util.Vector;
 

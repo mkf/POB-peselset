@@ -2,10 +2,10 @@ package pl.mikf.uam.pob.peselset;
 
 import org.junit.jupiter.api.Test;
 
-import java.io.*;
-import java.util.Arrays;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class StoreTest {
 

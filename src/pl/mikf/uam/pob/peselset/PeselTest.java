@@ -2,9 +2,7 @@ package pl.mikf.uam.pob.peselset;
 
 import org.junit.jupiter.api.Test;
 
-import javax.lang.model.type.NullType;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class PeselTest {
     @Test
